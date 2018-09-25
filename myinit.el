@@ -6,6 +6,15 @@
 (global-set-key (kbd "<f5>") 'revert-buffer)
 (desktop-save-mode 1)
 
+(when (version<= "26.0.50" emacs-version )
+  (global-display-line-numbers-mode))
+
+(setq default-frame-alist '((font . "DejaVu Sans Mono-10.5")))
+(defun my-fix-emojis (&optional frame)
+  (set-fontset-font "fontset-default" nil "Symbola" frame 'append))
+(my-fix-emojis)
+(add-hook 'after-make-frame-functions 'my-fix-emojis)
+
 (use-package try
 	:ensure t)
 

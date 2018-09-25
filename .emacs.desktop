@@ -2,42 +2,66 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Sep 14 04:24:57 2018
+;; Created Tue Sep 25 09:36:37 2018
 ;; Desktop file format version 208
 ;; Emacs version 27.0.50
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (23451 14361 718893 553000) (desktop . "208") "moustafa@moustafa-pc" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-DAMA-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "Ubuntu Mono 13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "black") (background-color . "white") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 32) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . light) (cursor-color . "black") (sticky) (environment) (last-focus-update) (frameset--id . "687C-0F8D-4516-70A6") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (height . 55) (width . 200) (left . 67) (top . 27)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 18) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 162) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1853) (pixel-height . 983) (total-width . 206) (total-height . 55) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 926) (pixel-height . 983) (total-width . 103) (total-height . 55) (normal-height . 1.0) (normal-width . 0.5) (buffer "background.tex" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 4 t nil 0 t) (vscroll . 0) (dedicated) (point . 42124) (start . 41497))) (leaf (last . t) (pixel-width . 927) (pixel-height . 983) (total-width . 103) (total-height . 55) (normal-height . 1.0) (normal-width . 0.5) (buffer "Thesis.tex" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 4 t nil 0 t) (vscroll . 0) (dedicated) (point . 1297) (start . 158)))))])
+(setq desktop-saved-frameset [frameset 1 (23466 421 201191 772000) (desktop . "208") "moustafa@moustafa-pc" nil nil ((((minibuffer . t) (undecorated) (override-redirect) (font-backend xft x) (font . "-DAMA-Ubuntu Mono-normal-normal-normal-*-17-*-*-*-m-0-iso10646-1") (font-parameter . "Ubuntu Mono 13") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "black") (background-color . "white") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (no-special-glyphs) (scroll-bar-foreground) (scroll-bar-background) (menu-bar-lines . 1) (tool-bar-lines . 0) (title) (wait-for-wm . t) (tool-bar-position . top) (inhibit-double-buffering) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 32) (scroll-bar-height . 0) (alpha) (no-focus-on-map) (no-accept-focus) (fullscreen . maximized) (visibility . t) (skip-taskbar) (z-group) (display-type . color) (background-mode . light) (cursor-color . "black") (sticky) (environment) (last-focus-update . t) (frameset--id . "687C-0F8D-4516-70A6") (frameset--mini t . t) (modeline . t) (unsplittable) (icon-name) (display . ":0") (explicit-name) (height . 55) (width . 200) (left . 67) (top . 27)) ((min-height . 4) (min-width . 20) (min-height-ignore . 2) (min-width-ignore . 17) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 72) (min-pixel-width . 180) (min-pixel-height-ignore . 36) (min-pixel-width-ignore . 153) (min-pixel-height-safe . 18) (min-pixel-width-safe . 36)) hc (pixel-width . 1853) (pixel-height . 983) (total-width . 206) (total-height . 54) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 927) (pixel-height . 983) (total-width . 103) (total-height . 54) (normal-height . 1.0) (normal-width . 0.5002698327037237) (buffer "myinit.org" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 4 t nil 0 t) (vscroll . 0) (dedicated) (point . 652) (start . 1))) (leaf (last . t) (pixel-width . 926) (pixel-height . 983) (total-width . 103) (total-height . 54) (normal-height . 1.0) (normal-width . 0.4997301672962763) (buffer "*Backtrace*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars nil 4 t nil 0 t) (vscroll . 0) (dedicated) (point . 31) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
 (setq search-ring nil)
-(setq regexp-search-ring nil)
+(setq regexp-search-ring '("figure" "foot" "XXXX"))
 (setq register-alist nil)
-(setq file-name-history '(#("/home/moustafa/Master_Thesis/chapters/references.tex" 0 52 (ivy-index 0)) #("/home/moustafa/Master_Thesis/chapters/literature.tex" 0 52 (ivy-index 16)) #("/home/moustafa/Master_Thesis/chapters/introduction.tex" 0 54 (ivy-index 14)) #("/home/moustafa/Master_Thesis/chapters/background.tex" 0 52 (ivy-index 0)) #("/home/moustafa/Master_Thesis/Thesis.tex" 0 39 (ivy-index 0)) #("/home/moustafa/.emacs.d/myinit.org" 0 34 (ivy-index 1))))
+(setq file-name-history '(#("/home/moustafa/.emacs.d/myinit.org" 0 34 (ivy-index 13)) #("/home/moustafa/.emacs.d/myinit.el" 0 33 (ivy-index 12)) #("/home/moustafa/Master_Thesis/chapters/background.tex" 0 52 (ivy-index 1)) #("/home/moustafa/Master_Thesis/Thesis.tex" 0 39 (ivy-index 0)) #("/home/moustafa/Master_Thesis/chapters/references.tex" 0 52 (ivy-index 0)) #("/home/moustafa/Master_Thesis/chapters/literature.tex" 0 52 (ivy-index 16)) #("/home/moustafa/Master_Thesis/chapters/introduction.tex" 0 54 (ivy-index 14))))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 208
-  "/home/moustafa/Master_Thesis/Thesis.tex"
-  "Thesis.tex"
-  'latex-mode
-  '(visual-line-mode outline-minor-mode which-key-mode override-global-mode company-mode flycheck-mode ivy-mode flymake-mode yas-minor-mode undo-tree-mode beacon-mode hungry-delete-mode global-auto-revert-mode TeX-PDF-mode magit-file-mode git-gutter-mode pcre-mode reftex-mode flyspell-mode smartparens-mode)
-  1297
-  '(3412 nil)
+  "/home/moustafa/.emacs.d/myinit.org"
+  "myinit.org"
+  'org-mode
+  '(auto-fill-mode which-key-mode override-global-mode company-mode flycheck-mode ivy-mode yas-minor-mode undo-tree-mode beacon-mode hungry-delete-mode global-auto-revert-mode TeX-PDF-mode magit-file-mode git-gutter-mode pcre-mode org-indent-mode flyspell-mode)
+  652
+  '(413 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 23451 14331 74213 535000) (buffer-file-coding-system . utf-8-dos) (truncate-lines) (TeX-master . t))
-  '((mark-ring (1321 3740 4321 6249 4299 2723 6600 4808 3550 1951 5416 6469 6600 6568 6513 1313))))
+  '((indent-tabs-mode) (buffer-display-time 23466 397 753448 454000) (buffer-file-coding-system . undecided-dos) (truncate-lines . t))
+  '((mark-ring (412 412 475))))
+
+(desktop-create-buffer 208
+  "/home/moustafa/.emacs.d/myinit.el"
+  "myinit.el"
+  'emacs-lisp-mode
+  '(eldoc-mode which-key-mode override-global-mode company-mode flycheck-mode ivy-mode yas-minor-mode undo-tree-mode beacon-mode hungry-delete-mode global-auto-revert-mode TeX-PDF-mode magit-file-mode git-gutter-mode pcre-mode)
+  74
+  '(nil nil)
+  nil
+  nil
+  '((buffer-display-time 23466 291 497165 273000) (buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
 
 (desktop-create-buffer 208
   "/home/moustafa/Master_Thesis/chapters/background.tex"
   "background.tex"
   'latex-mode
-  '(visual-line-mode outline-minor-mode which-key-mode override-global-mode company-mode flycheck-mode ivy-mode flymake-mode yas-minor-mode undo-tree-mode beacon-mode hungry-delete-mode global-auto-revert-mode TeX-PDF-mode magit-file-mode git-gutter-mode pcre-mode reftex-mode flyspell-mode smartparens-mode text-scale-mode)
-  42124
-  '(42104 nil)
+  '(visual-line-mode outline-minor-mode which-key-mode override-global-mode company-mode flycheck-mode ivy-mode flymake-mode yas-minor-mode undo-tree-mode beacon-mode hungry-delete-mode global-auto-revert-mode TeX-PDF-mode magit-file-mode git-gutter-mode pcre-mode flyspell-mode reftex-mode)
+  21029
+  '(22159 nil)
   nil
   nil
-  '((indent-tabs-mode) (buffer-display-time 23451 14331 74213 245000) (buffer-file-coding-system . utf-8-unix) (overwrite-mode) (truncate-lines) (TeX-master . t))
-  '((mark-ring (42184 42104 42104 42104 42015 42015 41498 41738 41318 41318 40564 40564 40564 40564 42015 40564))))
+  '((indent-tabs-mode) (buffer-display-time 23466 327 359238 748000) (buffer-file-coding-system . utf-8-unix) (truncate-lines))
+  '((mark-ring (23765 25018 26193 27336 28490 29573 30744 32156 33484 35951 39557 42057 44335 46573 48983 51061))))
+
+(desktop-create-buffer 208
+  "/home/moustafa/Master_Thesis/Thesis.tex"
+  "Thesis.tex"
+  'latex-mode
+  '(visual-line-mode outline-minor-mode which-key-mode override-global-mode company-mode flycheck-mode ivy-mode flymake-mode yas-minor-mode undo-tree-mode beacon-mode hungry-delete-mode global-auto-revert-mode TeX-PDF-mode magit-file-mode git-gutter-mode pcre-mode flyspell-mode reftex-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-display-time 23466 323 236091 40000) (buffer-file-coding-system . utf-8-dos) (truncate-lines) (TeX-master . t))
+  '((mark-ring nil)))
 

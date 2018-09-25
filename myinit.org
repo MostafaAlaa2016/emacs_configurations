@@ -4,25 +4,27 @@
 (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
 
 #+END_SRC
-* interface tweak
-s
+* interface tweaks
+
+
+
 #+BEGIN_SRC emacs-lisp
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
 (fset 'yes-or-no-p 'y-or-n-p)
 (global-set-key (kbd "<f5>") 'revert-buffer)
 (desktop-save-mode 1)
-(defun my-nlinum-mode-hook ()
-  (when nlinum-mode
-    (setq-local nlinum-format
-                (concat "%" (number-to-string
-                             ;; Guesstimate number of buffer lines.
-                             (ceiling (log (max 1 (/ (buffer-size) 80)) 10)))
-                        "d"))))
-(add-hook 'nlinum-mode-hook #'my-nlinum-mode-hook)
+
+(when (version<= "26.0.50" emacs-version )
+  (global-display-line-numbers-mode))
+
+(setq default-frame-alist '((font . "DejaVu Sans Mono-10.5")))
+(defun my-fix-emojis (&optional frame)
+  (set-fontset-font "fontset-default" nil "Symbola" frame 'append))
+(my-fix-emojis)
+(add-hook 'after-make-frame-functions 'my-fix-emojis)
 
 #+END_SRC
-
 * try
 #+BEGIN_SRC emacs-lisp
 (use-package try
