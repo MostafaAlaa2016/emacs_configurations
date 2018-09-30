@@ -1,19 +1,18 @@
 #+STARTUP: overview
 * repos
+
 #+BEGIN_SRC emacs-lisp
 (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
 
 #+END_SRC
 * interface tweaks
-
-
-
 #+BEGIN_SRC emacs-lisp
 (setq inhibit-startup-message t)
 (tool-bar-mode -1)
 (fset 'yes-or-no-p 'y-or-n-p)
 (global-set-key (kbd "<f5>") 'revert-buffer)
 (desktop-save-mode 1)
+
 
 (when (version<= "26.0.50" emacs-version )
   (global-display-line-numbers-mode))
@@ -24,13 +23,18 @@
 (my-fix-emojis)
 (add-hook 'after-make-frame-functions 'my-fix-emojis)
 
+;;(load-theme 'dracula t)
+;;
+;;(require 'color-theme-sanityinc-tomorrow)
+(load-theme 'sanityinc-tomorrow-bright t)
+
+
 #+END_SRC
 * try
 #+BEGIN_SRC emacs-lisp
 (use-package try
 	:ensure t)
 #+END_SRC
-
 * which key
   Brings up some help
   #+BEGIN_SRC emacs-lisp
@@ -213,13 +217,11 @@
   #+END_SRC
 
 * Avy - navigate by searching for a letter on the screen and jumping to it
-  See https://github.com/abo-abo/avy for more info
   #+BEGIN_SRC emacs-lisp
   (use-package avy
   :ensure t
   :bind ("M-s" . avy-goto-word-1)) ;; changed from char as per jcs
   #+END_SRC
-
 * Autocomplete
   #+BEGIN_SRC emacs-lisp  :tangle no
      (use-package auto-complete 
@@ -776,6 +778,7 @@
 #+RESULTS:
 
 * git
+
 #+BEGIN_SRC emacs-lisp
   (use-package magit
     :ensure t
@@ -841,6 +844,7 @@
    #+RESULTS:
    : t
 * Testing Stuff
+
 #+BEGIN_SRC emacs-lisp
 (add-hook 'org-mode-hook 'turn-on-flyspell)
 (add-hook 'org-mode-hook 'turn-on-auto-fill)
